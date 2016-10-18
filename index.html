@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- META -->
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Vinícius Felisberto">
+		<meta name="description" content="">
+
+		<title>Merlin's Potions</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- JS -->
+		<script src="js/menuResponsive.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="AlinharLeft">
+				<a href="index.html"><h1 class="logo">MERLIN'S <span>POTIONS</span></h1></a>
+				<p class="fine">&minus;fine potions since 1026&minus;</p>
+			</div>
+<!-- TENTAR DNV <span class="fa fa-search" style="color: #d73b1e;"></span> -->
+			<input type="search" placeholder="Search our stock" style="float: left; margin-left: 100px;" />
+
+			<div class="free">
+				<p id="p1">Free shipping</p>
+				<p>on orders over $50</p>
+			</div>
+				<i class="fa fa-shopping-basket" style="color: #523468; font-size: 2em;"></i>
+				<h3> BAG: 1 </h3>
+		</header>
+		<ul class="nav" id="myNav">
+  			<li class="icon">
+      			<a href="javascript:void(0);" style="font-size:2em; color: #523468;" onclick="menuResponsivo()">☰</a>
+  			</li>
+  			<li><a href="#">Potions <i class="seta-baixo"></i></a></li>
+  			<li><a href="#">Ingredients <i class="seta-baixo"></i></a></li>
+  			<li><a href="#">Books <i class="seta-baixo"></i></a></li>
+  			<li><a href="#">Suplies <i class="seta-baixo"></i></a></li>
+  			<li><a href="#">Charms <i class="seta-baixo"></i></a></li>
+  			<li><a href="#" class="active">Crearance!</a></li>
+  			<li class="login">
+    			<a href="#">Sign In <span> or </span>Sign Up</a>
+  			</li>
+		</ul>
+		<section>
+			<h2> Potions </h2>
+			<div id="potions">
+				<div class="potion" id="1" style="cursor: pointer;" onclick="Clique(1), window.location();">
+                </div>
+                <div class="potion" id="2" style="cursor: pointer;" onclick="Clique(2);">
+                </div>
+                <div class="potion" id="3" style="cursor: pointer;" onclick="Clique(3);">
+                </div>
+                <div class="potion" id="4" style="cursor: pointer;" onclick="Clique(4);">
+                </div>
+                <div class="potion" id="5" style="cursor: pointer;" onclick="Clique(5);">
+                </div>
+                <div class="potion" id="6" style="cursor: pointer;" onclick="Clique(6);">
+                </div>
+            </div>
+		</section>
+		<footer><pre>
+<a href="#">COMPANY
+RETURNS</pre></a>
+<a href="#"><pre>CONTACT US
+CAREERS<pre></a>
+<a href="#">SHIPPING</a>
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<form style="float: right">
+<input type="text" placeholder="Enter your email"><button type="submit">Submit</button>
+</form>
+<p> &copy; 2015 Merlin's Potions. All Rights Reserved </p>
+
+		</footer>
+		<!-- ICONS -->
+		<script src="https://use.fontawesome.com/b9e53414f1.js"></script>
+		<!-- SCRIPT QUE ACESSA/MOSTRA JSON -->
+		<script src="js/carregaJson.js"></script>
+	</body>
+</html>
